@@ -10,6 +10,7 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
+    AppRoutingModule,
     AgmCoreModule.forRoot({
     apiKey : 'AIzaSyDJ3z61GzfNSGgVShkWNBHFsUeUGSDaBxI'
     }),
