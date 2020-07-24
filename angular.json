@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "vrarar"
+    }
+  },
+  "defaultProject": "vrarar",
+  "cli": {
+    "analytics": "9608e372-fc18-4ec8-ba63-190a229a8abd"
+  }
 }
