@@ -1,4 +1,13 @@
-<agm-map [latitude]="latitude" [longitude]="longitude" (mapClick)="onChoseLocation($event)">
-<agm-marker [latitude]="latitude" [longitude]="longitude"></agm-marker>
 
+<div class="container">
+
+<agm-map [latitude]="latitude" [longitude]="longitude" (mapClick)="onChoseLocation($event)">
+    <div class="search" >
+        <input type="search" class="search-box" />
+        <span class="search-button"(onClick)="onToggleClick($open)">
+          <span class="search-icon"></span>
+        </span>
+      </div>
+  
 </agm-map>
+</div>
